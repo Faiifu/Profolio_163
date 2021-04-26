@@ -1,0 +1,179 @@
+body {
+    font-family: 'Prompt', sans-serif;
+    background-color: #F6F2EF;
+    margin: 0;
+}
+
+.container {
+    padding: 0  ;
+}
+
+.c-1 {
+    color: #678A74;
+}
+
+h1 {
+    font-size: 2.5vw;
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+h4 {
+    font-size: 1.3vw;
+}
+
+h5 {
+    font-size: 1vw;
+}
+
+p {
+    font-size: 1vw;
+    font-weight: lighter;
+}
+
+.w-70 {
+    width: 65vw;
+}
+
+.navbar img {
+    width: 10vw;
+}
+
+.menu {
+    width: 30vw;
+}
+
+.img_me1 {
+    width: 20vw;
+}
+
+.property_box {
+    width: 20vw;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0px 4px 8px 0px rgb(0, 0, 0, 0.2);
+}
+
+.img_check,
+.img_contact {
+    width: 2vw;
+}
+
+.img_contact1 {
+    width: 1.5vw;
+}
+
+.line_white {
+    background-color: white;
+    width: 20vw;
+}
+
+.line_green {
+    background-color: #678A74;
+    width: 20vw;
+}
+
+.bg-2 {
+    background-color: #678A74;
+}
+
+.img_me2 {
+    width: 20vw;
+    margin-right: 4vw;
+}
+
+.img_skills {
+    margin-bottom: 1vw;
+    width: 5vw;
+}
+
+.img_portfolio,
+.img_portfolio_ui {
+    width: 27vw;
+    height: 37vw;
+    background-size: cover;
+    background-position:center;
+    border-radius: 15px;
+}
+
+.img_portfolio_ui {
+    background-position:top;
+}
+
+.see_more,
+.see_more_green {
+    border:#678A74 1px solid;
+    border-radius: 10px;
+    width: 10vw;
+    padding: 0.5vw;
+    text-align: center;
+}
+
+.see_more_green {
+    border:white 1px solid;
+}
+
+.img_project {
+    width: 27vw;
+    border-radius: 15px;
+}
+
+.img_logo_contact {
+    width: 15vw;
+}
+
+/* Resume */
+.school {
+    width: 47vw;
+}
+
+.img_com {
+    width: 4vw;
+    margin-bottom: 20%;
+}
+
+.img_com_react {
+    width: 5vw;
+    margin-bottom: 20%;
+}
+
+/* portfolio */
+.img_portfolio_show {
+    width: 17vw;
+}
+
+.port_show {
+    display: flex;
+    margin-top: 2vw;
+}
+
+.bg_port {
+    padding: 3vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#80A98F, #678A74);
+}
+
+/* project */
+.img_project_show {
+    width: 25vw;
+}
+
+/* etc */
+.menu a:visited,
+.menu a:hover {
+    color: #678A74;
+    font-weight: bold;
+}
+
+.btn_more a:visited {
+    color: white;
+}
+
+.btn_more_green a:visited {
+    color: #678A74;
+}

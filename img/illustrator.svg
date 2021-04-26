@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="125" height="125" viewBox="0 0 125 125">
+  <g id="illustrator" transform="translate(-620 -1682)">
+    <path id="Path_1" data-name="Path 1" d="M62.5,0A62.5,62.5,0,1,1,0,62.5,62.5,62.5,0,0,1,62.5,0Z" transform="translate(620 1682)" fill="#eb9b51"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="49.5" cy="49.5" r="49.5" transform="translate(633 1695)" fill="#cc6825"/>
+    <text id="Ai" transform="translate(655 1762)" fill="#fff" font-size="50" font-family="Prompt-Medium, Prompt" font-weight="500" letter-spacing="0.024em"><tspan x="0" y="0">Ai</tspan></text>
+  </g>
+</svg>
