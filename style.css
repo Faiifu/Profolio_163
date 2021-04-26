@@ -165,7 +165,8 @@ p {
 
 /* etc */
 .menu a:visited,
-.menu a:hover {
+.menu a:hover,
+.port_show a:visited {
     color: #678A74;
     font-weight: bold;
 }
