@@ -117,7 +117,7 @@ p {
 }
 
 .img_skills {
-    margin-bottom: 1vw;
+    margin: 1vw 0 2vw 0;
     width: 5vw;
 }
 
@@ -154,8 +154,15 @@ p {
 }
 
 .img_logo_contact {
-    width: 15vw;
+    width: 20vw;
     margin-bottom: 1vw;
+}
+
+.about_me {
+    padding: 0 2vw 0 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Resume */
@@ -179,7 +186,7 @@ p {
 
 /* portfolio */
 .img_portfolio_show {
-    width: 15vw;
+    width: 25vw;
     margin-bottom: 1vw;
 }
 
@@ -195,6 +202,10 @@ p {
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(#80A98F, #678A74);
+}
+
+.column {
+    text-align: center;
 }
 
 /* project */
@@ -241,53 +252,169 @@ p {
 }
 
 @media all and (max-width:1000px) {
-    .toggleNav {
-      display: block;
-      text-align: end;
-      font-size: small;
+    .w-70 {
+        width: 90vw;
     }
-    .flex-nav p {
+    p {
         font-size: 1.5vw;
     }
-    .flex-nav ul {
-        flex-wrap: wrap;
+    .h1 {
+        font-size: 3.5vw;
     }
-    .flex-nav ul.open{
-      display: flex;
+    .h3 {
+        font-size: 3vw;
     }
-    .flex-nav ul {
-      display: none;
+    .h4 {
+        font-size: 2vw;
     }
-    .flex-nav ul li {
-      width: 100%;
+    .h5,
+    .h6 {
+        font-size: 1.8vw;
+    }
+    .property_box {
+        width: 28vw;
+    }
+    .img_check {
+        width: 3.5vw;
+    }
+    .size_content {
+        width: 50vw;
+    }
+    .see_more_green,
+    .see_more {
+        width: 20vw;
+    }
+    .img_me2,
+    .img_me1 {
+        width: 25vw;
+    }
+    .school {
+        width: 70vw;
+    }
+    .img_project_show {
+        width: 35vw;
+    }
+    .column {
+        -ms-flex: 85vw;
+        flex: 85vw;
+        max-width: 85vw;
+    }
+    .img_portfolio_show {
+        width: 40vw;
     }
   }
 
 @media screen and (max-width: 992px){
+    .flex-nav p {
+        font-size: 1.8vw;
+    }
     .img_skills {
         width: 7vw;
     }
+    .img_project_show {
+        width: 35vw;
+    }
+}
 
 @media screen and (max-width: 800px) {
+    .toggleNav {
+        display: block;
+        text-align: end;
+        font-size: medium;
+      }
+      .flex-nav ul {
+          flex-wrap: wrap;
+      }
+      .flex-nav ul.open{
+        display: flex;
+      }
+      .flex-nav ul {
+        display: none;
+      }
+      .flex-nav ul li {
+        width: 100%;
+      }
     .column {
-      -ms-flex: 60vw;
-      flex: 60vw;
-      max-width: 60vw;
+      -ms-flex: 90vw;
+      flex: 90vw;
+      max-width: 90vw;
       text-align: center;
     }
     .img_portfolio_show {
-        width: 25vw;
+        width: 40vw;
+    }
+    .img_project_show {
+        width: 45vw;
+    }
+    .flex-nav p {
+        font-size: 2vw;
+    }
+    p {
+        font-size: 2.3vw;
+    }
+    .h1 {
+        font-size: 4vw;
+    }
+    .h3 {
+        font-size: 3.5vw;
+    }
+    .h4 {
+        font-size: 2.5vw;
+    }
+    .h5,
+    .h6 {
+        font-size: 2.3vw;
+    }
+    .img_me2,
+    .img_me1 {
+        width: 35vw;
     }
   }
 
 @media screen and (max-width: 600px) {
     .column {
-        -ms-flex: 40vw;
-        flex: 40vw;
-        max-width: 40vw;
+        -ms-flex: 90vw;
+        flex: 90vw;
+        max-width: 90vw;
     }
     .img_portfolio_show {
-        width: 30vw;
+        width: 40vw;
+    }
+    .flex-nav p {
+        font-size: 2.5vw;
+    }
+    p {
+        font-size: 2.3vw;
+    }
+    .h1 {
+        font-size: 4vw;
+    }
+    .h3 {
+        font-size: 3.5vw;
+    }
+    .h4 {
+        font-size: 2.5vw;
+    }
+    .h5,
+    .h6 {
+        font-size: 2.3vw;
+    }
+    .school {
+        width: 70vw;
+    }
+    .logo {
+        width: 20vw;
+    }
+    .img_social,
+    .img_contact,
+    .img_social1 {
+        width: 3vw;
+    }
+    .img_contact1 {
+        width: 2.5vw;
+    }
+    .img_project_show {
+        width: 75vw;
     }
 }
 
@@ -296,10 +423,34 @@ p {
         flex-wrap: nowrap;
     }
     .property_box {
-        width: 25vw;
+        width: 70vw;
     }
     .property,
     .project {
         flex-wrap: wrap;
+    }
+    .img_project_show {
+        width: 75vw;
+    }
+    .about_me {
+        padding: 0;
+        flex-wrap: wrap;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .img_me2 {
+        margin: 0 0 1vw 0;
+    }
+    .img_social,
+    .img_contact,
+    .img_social1 {
+        width: 3.5vw;
+    }
+    .img_contact1 {
+        width: 3vw;
+    }
+    .flex-nav p {
+        font-size: 2.8vw;
     }
 }
