@@ -28,15 +28,24 @@
     <body>
         <div class="d-flex justify-content-center p-3 c-1">
             <div class="d-flex flex-column">
-                <div class="navbar w-70 d-flex align-items-center
-                    justify-content-between">
-                    <a href="/"><img alt="Responsive image" src="/img/logo.svg"></a>
-                    <div class="menu d-flex justify-content-between c-1">
-                        <a href="/"><p class="m-0">Home</p></a>
-                        <a href="/page/resume.html"><p class="m-0">Resume</p></a>
-                        <a href="/page/portfolio.html"><p class="m-0">Portfolio</p></a>
-                        <a href="/page/project.html"><p class="m-0">Project</p></a>
-                        <a href="/page/contact.html"><p class="m-0">Contact</p></a>
+                <div class="d-flex justify-content-between
+                    align-items-center">
+                    <div class="p-3">
+                        <a href="/"><img alt="Responsive image"
+                                src="/img/logo.svg" class="logo"></a>
+                    </div>
+                    <div class="menu w-50">
+                        <nav class="flex-nav">
+                            <a href="#" class="toggleNav">☰ Menu</a>
+                            <ul>
+                                <li><a href="/"><p class="m-0">Home</p></a></li>
+                                <li><a href="/page/resume.html"><p class="m-0">Resume</p></a></li>
+                                <li><a href="/page/portfolio.html"><p
+                                            class="m-0">Portfolio</p></a></li>
+                                <li><a href="/page/project.html"><p class="m-0">Project</p></a></li>
+                                <li><a href="/page/contact.html"><p class="m-0">Contact</p></a></li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
 
@@ -188,6 +197,18 @@
                 </div>
             </div>
         </div>
+
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+        </script>
+        
+        <script>
+            $(function() {
+            $('.toggleNav').on('click',function() {
+            $('.flex-nav ul').toggleClass('open');
+            });
+            });
+        </script>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

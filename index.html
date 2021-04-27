@@ -29,32 +29,27 @@
         <!-- Session 1 -->
         <div class="d-flex justify-content-center p-3">
             <div class="d-flex flex-column">
-                <div class="row bg-info d-flex justify-content-between
+                <div class="d-flex justify-content-between
                     align-items-center">
-                    <div class="col-3 bg-white">
+                    <div class="p-3">
                         <a href="/"><img alt="Responsive image"
                                 src="/img/logo.svg" class="logo"></a>
                     </div>
-                    <div class="col-6 menu bg-warning d-flex
-                        justify-content-between">
-                        <a href="/"><p class="m-0">Home</p></a>
-                        <a href="/page/resume.html"><p class="m-0">Resume</p></a>
-                        <a href="/page/portfolio.html"><p class="m-0">Portfolio</p></a>
-                        <a href="/page/project.html"><p class="m-0">Project</p></a>
-                        <a href="/page/contact.html"><p class="m-0">Contact</p></a>
+                    <div class="menu w-50">
+                        <nav class="flex-nav">
+                            <a href="#" class="toggleNav">☰ Menu</a>
+                            <ul>
+                                <li><a href="/"><p class="m-0">Home</p></a></li>
+                                <li><a href="/page/resume.html"><p class="m-0">Resume</p></a></li>
+                                <li><a href="/page/portfolio.html"><p
+                                            class="m-0">Portfolio</p></a></li>
+                                <li><a href="/page/project.html"><p class="m-0">Project</p></a></li>
+                                <li><a href="/page/contact.html"><p class="m-0">Contact</p></a></li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
-                <!-- <div class="navbar w-70 d-flex align-items-center
-                    justify-content-between">
-                    <a href="/"><img alt="Responsive image" src="/img/logo.svg"></a>
-                    <div class="menu d-flex justify-content-between c-1">
-                        <a href="/"><p class="m-0">Home</p></a>
-                        <a href="/page/resume.html"><p class="m-0">Resume</p></a>
-                        <a href="/page/portfolio.html"><p class="m-0">Portfolio</p></a>
-                        <a href="/page/project.html"><p class="m-0">Project</p></a>
-                        <a href="/page/contact.html"><p class="m-0">Contact</p></a>
-                    </div>
-                </div> -->
+
                 <div class="w-70 p-3">
                     <div class="d-flex justify-content-between
                         align-items-center c-1">
@@ -76,7 +71,7 @@
                 </div>
 
                 <div class="w-70 p-3">
-                    <div class="row">
+                    <div class="row align-items-center">
                         <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
                             <div class="property_box d-flex p-3 bg-white
                                 justify-content-center">
@@ -208,17 +203,14 @@
                     <hr class="mt-0 mb-0 line_green">
                 </div>
 
-                <div class="w-70 p-3">
-                    <div class="d-flex justify-content-between px-4">
-                        <div class="img_portfolio mx-3"
-                            style="background-image:
-                            url(/portfolio/port1.svg);"></div>
-                        <div class="img_portfolio_ui mx-3"
-                            style="background-image:
-                            url(/portfolio/uxui.svg);"></div>
+                <div class="row justify-content-center">
+                    <div class="column">
+                        <img class="img_portfolio_show"
+                            src="/portfolio/port1.svg">
+                        <img class="img_portfolio_show"
+                            src="/portfolio/uxui.svg">
                     </div>
                 </div>
-
                 <div class="btn_more_green d-flex justify-content-center c-1
                     p-3">
                     <a href="/page/portfolio.html"><p class="see_more">see more
@@ -234,32 +226,14 @@
                     <p class="h3 text-light">Project</p>
                     <hr class="mt-0 mb-0 line_white">
                 </div>
-
-                <div class="w-70 p-3 text-white">
-                    <div class="d-flex justify-content-between px-4">
-                        <div class="img_project text-center">
-                            <img alt="Responsive image" src="/project/Image 1.svg" class="img_project">
-                            <div class="mt-3">
-                                <p class="h5 text-uppercase">Social Killer</p>
-                                <p class="m-0">เว็บไซต์ที่ถูกสร้างขึ้นเพื่อสะท้อนปัญหา
-                                    sexual harestment หรือ
-                                    การคุกคามหรือล่วงละเมิดทางเพศ
-                                    ภายใต้คอนเซ็ปต์ "ฆาตรกรคีย์บอร์ด"</p>
-                            </div>
-                        </div>
-                        <div class="img_project text-center">
-                            <img alt="Responsive image"
-                                src="/project/city_1.0490.svg"
-                                class="img_project">
-                            <div class="mt-3">
-                                <p class="h5 text-uppercase">Stop Coronavirus</p>
-                                <p class="m-0">คลิปวิดีโอรณรงค์การใช้แอลกอฮอลล์สำหรับฆ่าเชื่อไวรัสโคโรน่า
-                                    โดยใช้โปรแกรม Maya ในการจำลองโมเดลขึ้นมา</p>
-                            </div>
-                        </div>
+                <div class="row justify-content-center">
+                    <div class="column">
+                        <img src="/project/Image1.svg"
+                            class="img_portfolio_show">
+                        <img src="/project/city_1.0490.svg"
+                            class="img_portfolio_show">
                     </div>
                 </div>
-
                 <div class="btn_more d-flex justify-content-center text-white
                     p-3">
                     <a href="/page/project.html"><p class="see_more_green">see
@@ -276,16 +250,16 @@
                         class="img_logo_contact">
                 </div>
 
-                <div class="d-flex justify-content-center mt-3">
-                    <div class="d-flex c-1 align-items-center mr-5">
+                <div class="d-flex justify-content-center mt-3-v">
+                    <div class="d-flex c-1 align-items-center mr-5-v">
                         <img alt="Responsive image" src="/img/email.svg"
                             class="img_contact
-                            mr-3">
+                            mr-3-v">
                         <p class="m-0">pwnt.phawinee@gmail.com</p>
                     </div>
-                    <div class="d-flex c-1 align-items-center ml-5">
+                    <div class="d-flex c-1 align-items-center ml-5-v">
                         <img alt="Responsive image" src="/img/phone-alt.svg"
-                            class="img_contact1 mr-3">
+                            class="img_contact1 mr-3-v">
                         <p class="m-0">09 5471 9082</p>
                     </div>
                 </div>
@@ -312,6 +286,16 @@
             </div>
         </div>
 
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+        </script>
+        <script>
+            $(function() {
+            $('.toggleNav').on('click',function() {
+            $('.flex-nav ul').toggleClass('open');
+            });
+            });
+        </script>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
